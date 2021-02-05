@@ -51,11 +51,13 @@
 
     <br >
   <section >
+    <!-- En este Section pudiste haber identado mejor las etiquetas ya que es un poco confuso saber donde acaba cada una (Esto se repite en varias secciones) -->
     <hr>
    <h2 class="text-center" >Personal Information</h2>
    <br>
    <div class="container">
     <div class="d-flex justify-content-around">
+      <!-- Los atributos style  que nombras en este section pudieron haber estado en el css. -->
    <div class="card text-white bg-primary mb-3" style="width: 18rem;">
     <div class="card-header"> <h5>Who am I?</h5></div>
     <div class="card-body">
@@ -96,6 +98,7 @@
       <div class="card-body text-primary">
         <h4 class="card-title">Chiper Digital Platform</h4>
         <div class="media">
+          <!-- Es mejor que los el string que le pases al src no tengas espacios -->
           <img class="mr-3" src="logo-chiper1 (1).png" alt="Chiper image" height="90">
           <div class="media-body">
             <h5 class="mt-0"> </h5>
@@ -134,6 +137,8 @@
     <br>
   </section>
 
+  <!-- El id interests pudo haber estado dentro del section-->
+
   <br id="interests">
 
   <br >
@@ -143,6 +148,7 @@
     <br>
 
     <div class="d-flex justify-content-around">
+      <!-- Pudiste haber creado una clase para darle estilo a cada card, en vez de añadirle a cada una un atributo style. -->
       <div class="card text-white bg-primary mb-3" style="width: 22rem;">
        <div class="card-header"> <h5>Music</h5></div>
        <div class="card-body">
@@ -156,6 +162,7 @@
        <div class="card-header"> <h5>Hobbies</h5></div>
        <div class="card-body">
          <p class="card-text">I love videogames and playing tenis. One of my favorite players is Rafael Nadal, he has been my inspiration since I was little.
+           <!-- Para este video pudiste haber manejado con porcentajes o max width para que sea ams responsive, ya que no se puede ver toda la pantalla cuando hagop la ventaja del navegador mas pequeña-->
           <br> <br><iframe width="280" height="158" src="https://www.youtube.com/embed/QA3aYQ7jKgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </p>
        </div>
